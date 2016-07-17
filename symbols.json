@@ -1,0 +1,700 @@
+{
+    "communication-commands": [
+        {
+            "Command": "bplusrecv",
+            "Description": "Receives a file from the host with the B-Plus protocol"
+        },
+        {
+            "Command": "bplussend",
+            "Description": "Sends a file to the host with the B-Plus protocol"
+        },
+        {
+            "Command": "callmenu",
+            "Description": "Executes a menu of the Tera Term window"
+        },
+        {
+            "Command": "changedir",
+            "Description": "Changes the current directory"
+        },
+        {
+            "Command": "clearscreen",
+            "Description": "Erases the screen"
+        },
+        {
+            "Command": "closett",
+            "Description": "Closes Tera Term"
+        },
+        {
+            "Command": "connect",
+            "Description": "Connects Tera Term"
+        },
+        {
+            "Command": "cygconnect",
+            "Description": "Connects to Cygwin"
+        },
+        {
+            "Command": "disconnect",
+            "Description": "Closes the communication between Tera Term and the host"
+        },
+        {
+            "Command": "dispstr",
+            "Description": "Displays a character or string on the client terminal screen"
+        },
+        {
+            "Command": "enablekeyb",
+            "Description": "Enables/Disables keyboard inputs"
+        },
+        {
+            "Command": "flushrecv",
+            "Description": "Clears received characters in the buffer of MACRO"
+        },
+        {
+            "Command": "gethostname",
+            "Description": "Gets the hostname or IP address of Tera Term"
+        },
+        {
+            "Command": "getmodemstatus",
+            "Description": "Retrieves the modem control-register values"
+        },
+        {
+            "Command": "gettitle",
+            "Description": "Gets the window title string"
+        },
+        {
+            "Command": "kmtfinish",
+            "Description": "Causes Tera Term to execute the Kermit Finish command"
+        },
+        {
+            "Command": "kmtget",
+            "Description": "Receives a file with the Kermit Get command"
+        },
+        {
+            "Command": "kmtrecv",
+            "Description": "Receive a file with the Kermit protocol"
+        },
+        {
+            "Command": "kmtsend",
+            "Description": "Sends a file with the Kermit protocol"
+        },
+        {
+            "Command": "loadkeymap",
+            "Description": "Loads a keyboard setup file"
+        },
+        {
+            "Command": "logautoclosemode",
+            "Description": "Closes a log file automatically when macro ends"
+        },
+        {
+            "Command": "logclose",
+            "Description": "Causes Tera Term to close the log file"
+        },
+        {
+            "Command": "loginfo",
+            "Description": "Retrieves the Tera Term log status"
+        },
+        {
+            "Command": "logopen",
+            "Description": "Causes Tera Term to start logging"
+        },
+        {
+            "Command": "logpause",
+            "Description": "Causes Tera Term to pause logging"
+        },
+        {
+            "Command": "logrotate",
+            "Description": "Rotates a log file"
+        },
+        {
+            "Command": "logstart",
+            "Description": "Causes Tera Term to restart logging, if paused"
+        },
+        {
+            "Command": "logwrite",
+            "Description": "Writes a string to the log file"
+        },
+        {
+            "Command": "quickvanrecv",
+            "Description": "Receives a file with the Quick-VAN protocol"
+        },
+        {
+            "Command": "quickvansend",
+            "Description": "Sends a file with the Quick-VAN protocol"
+        },
+        {
+            "Command": "recvln",
+            "Description": "Receives characters of a line"
+        },
+        {
+            "Command": "restoresetup",
+            "Description": "Loads a Tera Term setup file"
+        },
+        {
+            "Command": "scprecv",
+            "Description": "Receives a file from the remote host with the SCP protocol"
+        },
+        {
+            "Command": "scpsend",
+            "Description": "Sends a file to the remote host with the SCP protocol"
+        },
+        {
+            "Command": "send",
+            "Description": "Sends data"
+        },
+        {
+            "Command": "sendbreak",
+            "Description": "Causes Tera Term to send a break signal to the host"
+        },
+        {
+            "Command": "sendbroadcast",
+            "Description": "Broadcasts data to all terminals"
+        },
+        {
+            "Command": "sendfile",
+            "Description": "Sends a file"
+        },
+        {
+            "Command": "sendkcode",
+            "Description": "Sends a key code"
+        },
+        {
+            "Command": "sendln",
+            "Description": "Sends data with a new-line"
+        },
+        {
+            "Command": "sendlnbroadcast",
+            "Description": "Broadcasts data to all terminals with a new-line"
+        },
+        {
+            "Command": "sendmulticast",
+            "Description": "Sends data to the multicast host"
+        },
+        {
+            "Command": "setbaud",
+            "Description": "Change the current baud rate"
+        },
+        {
+            "Command": "setdebug",
+            "Description": "Configures the debug mode for Tera Term"
+        },
+        {
+            "Command": "setdtr",
+            "Description": "Changes the DTR(Data Terminal Ready) status of Tera Term"
+        },
+        {
+            "Command": "setecho",
+            "Description": "Changes the local echo status of Tera Term"
+        },
+        {
+            "Command": "setmulticastname",
+            "Description": "Configures a name of terminal identification for the multicast transmission"
+        },
+        {
+            "Command": "setrts",
+            "Description": "Changes the RTS(Request To Send) status of Tera Term"
+        },
+        {
+            "Command": "setsync",
+            "Description": "Sets the synchronous mode"
+        },
+        {
+            "Command": "settitle",
+            "Description": "Sets the window title string"
+        },
+        {
+            "Command": "showtt",
+            "Description": "Changes the displaying of Tera Term window"
+        },
+        {
+            "Command": "testlink",
+            "Description": "Reports the current link and connection status"
+        },
+        {
+            "Command": "unlink",
+            "Description": "Terminates the link between the current Tera Term window and MACRO"
+        },
+        {
+            "Command": "wait",
+            "Description": "Pauses until one of the character strings is received from the host, or until the timeout occurs"
+        },
+        {
+            "Command": "wait4all",
+            "Description": "Waits for one or more strings on all macro linked terminals"
+        },
+        {
+            "Command": "waitevent",
+            "Description": "Waits for an event"
+        },
+        {
+            "Command": "waitln",
+            "Description": "Waits for a line containing a specified string"
+        },
+        {
+            "Command": "waitn",
+            "Description": "Waits for the given number of bytes to be put into TeraTerm macro received buffer"
+        },
+        {
+            "Command": "waitrecv",
+            "Description": "Pauses until a string, which satisfies a condition, is received from the host, or until the timeout occurs"
+        },
+        {
+            "Command": "waitregex",
+            "Description": "Waits for a line that contains string with regular expression"
+        },
+        {
+            "Command": "xmodemrecv",
+            "Description": "Receives a file from the host with the XMODEM protocol"
+        },
+        {
+            "Command": "xmodemsend",
+            "Description": "Sends a file with the XMODEM protocol"
+        },
+        {
+            "Command": "ymodemrecv",
+            "Description": "Receives a file from the host with the YMODEM protocol"
+        },
+        {
+            "Command": "ymodemsend",
+            "Description": "Sends a file with the YMODEM protocol"
+        },
+        {
+            "Command": "zmodemrecv",
+            "Description": "Receives a file from the host with the ZMODEM protocol"
+        },
+        {
+            "Command": "zmodemsend",
+            "Description": "Sends a file with the ZMODEM protocol"
+        }
+    ],
+    "password-commands": [
+        {
+            "Command": "delpassword",
+            "Description": "Deletes a password"
+        },
+        {
+            "Command": "getpassword",
+            "Description": "Retrieves a password"
+        },
+        {
+            "Command": "ispassword",
+            "Description": "Determines if a password is stored"
+        },
+        {
+            "Command": "passwordbox",
+            "Description": "Displays a dialog box prompting the user to input a password"
+        },
+        {
+            "Command": "setpassword",
+            "Description": "Adds or Overwrites a password"
+        }
+    ],
+    "misc-commands": [
+        {
+            "Command": "beep",
+            "Description": "Makes a beep sound"
+        },
+        {
+            "Command": "bringupbox",
+            "Description": "Brings the status box to the top of the Z order"
+        },
+        {
+            "Command": "checksum8",
+            "Description": "Calculates the 8bit-checksum of a string"
+        },
+        {
+            "Command": "checksum8file",
+            "Description": "Calculates the 8bit-checksum of a file"
+        },
+        {
+            "Command": "checksum16",
+            "Description": "Calculates the 16bit-checksum of a string"
+        },
+        {
+            "Command": "checksum16file",
+            "Description": "Calculates the 16bit-checksum of a file"
+        },
+        {
+            "Command": "checksum32",
+            "Description": "Calculates the 32bit-checksum of a string"
+        },
+        {
+            "Command": "checksum32file",
+            "Description": "Calculates the 32bit-checksum of a file"
+        },
+        {
+            "Command": "closesbox",
+            "Description": "Closes the status dialog box opened by the 'statusbox' command"
+        },
+        {
+            "Command": "clipb2var",
+            "Description": "Copies the text data of clipboard"
+        },
+        {
+            "Command": "crc16",
+            "Description": "Calculates the CRC-16-IBM of a string"
+        },
+        {
+            "Command": "crc16file",
+            "Description": "Calculates the CRC-16-IBM of a file"
+        },
+        {
+            "Command": "crc32",
+            "Description": "Calculates the CRC-32 of a string"
+        },
+        {
+            "Command": "crc32file",
+            "Description": "Calculates the CRC-32 of a file"
+        },
+        {
+            "Command": "exec",
+            "Description": "Runs an application"
+        },
+        {
+            "Command": "dirnamebox",
+            "Description": "Open a dialog for the user to select a directory"
+        },
+        {
+            "Command": "filenamebox",
+            "Description": "Open a dialog for the user to select a file"
+        },
+        {
+            "Command": "getdate",
+            "Description": "Gets current date"
+        },
+        {
+            "Command": "getenv",
+            "Description": "Gets an environment variable"
+        },
+        {
+            "Command": "getipv4addr",
+            "Description": "Retrieves local IPv4 address(es)"
+        },
+        {
+            "Command": "getipv6addr",
+            "Description": "Retrieves local IPv6 address(es)"
+        },
+        {
+            "Command": "getspecialfolder",
+            "Description": "Retrieves the path of a special folder"
+        },
+        {
+            "Command": "gettime",
+            "Description": "Gets current time"
+        },
+        {
+            "Command": "getttdir",
+            "Description": "Gets the current working directory for ttpmacro.exe"
+        },
+        {
+            "Command": "getver",
+            "Description": "Get the version of Tera Term"
+        },
+        {
+            "Command": "ifdefined",
+            "Description": "Checks the type of a variable"
+        },
+        {
+            "Command": "inputbox",
+            "Description": "Displays a dialog box prompting user to input a string"
+        },
+        {
+            "Command": "intdim",
+            "Description": "Declare integer array variable"
+        },
+        {
+            "Command": "listbox",
+            "Description": "Displays a list box with selectable items"
+        },
+        {
+            "Command": "messagebox",
+            "Description": "Displays a dialog box with a message"
+        },
+        {
+            "Command": "random",
+            "Description": "Generates random number"
+        },
+        {
+            "Command": "rotateleft",
+            "Description": "Rotates (circular shifts) to left"
+        },
+        {
+            "Command": "rotateright",
+            "Description": "Rotates (circular shifts) to right"
+        },
+        {
+            "Command": "setdate",
+            "Description": "Changes the system date"
+        },
+        {
+            "Command": "setdlgpos",
+            "Description": "Sets the position of dialog box"
+        },
+        {
+            "Command": "setenv",
+            "Description": "Sets an environment variable"
+        },
+        {
+            "Command": "setexitcode",
+            "Description": "Sets the exit code of MACRO"
+        },
+        {
+            "Command": "settime",
+            "Description": "Changes the system time"
+        },
+        {
+            "Command": "show",
+            "Description": "Shows/hides the MACRO dialog box"
+        },
+        {
+            "Command": "statusbox",
+            "Description": "Displays the status dialog box"
+        },
+        {
+            "Command": "strdim",
+            "Description": "Declare string array variable"
+        },
+        {
+            "Command": "uptime",
+            "Description": "Gets System Up Time"
+        },
+        {
+            "Command": "var2clipb",
+            "Description": "Copys the text data to clipboard"
+        },
+        {
+            "Command": "yesnobox",
+            "Description": "Displays a dialog box with a Yes or No question to the user"
+        }
+    ],
+    "string-operators": [
+        {
+            "Command": "code2str",
+            "Description": "Converts ASCII code value to its string expression"
+        },
+        {
+            "Command": "expandenv",
+            "Description": "Expands environment-variable strings"
+        },
+        {
+            "Command": "int2str",
+            "Description": "Converts integer value to a string"
+        },
+        {
+            "Command": "regexoption",
+            "Description": "Specifies the syntax, character encoding and option of regular expression"
+        },
+        {
+            "Command": "sprintf",
+            "Description": "Returns formatted output"
+        },
+        {
+            "Command": "sprintf2",
+            "Description": "Returns formatted output"
+        },
+        {
+            "Command": "str2code",
+            "Description": "Converts string to ASCII code value"
+        },
+        {
+            "Command": "str2int",
+            "Description": "Converts a string to integer value"
+        },
+        {
+            "Command": "strcompare",
+            "Description": "Compares two strings"
+        },
+        {
+            "Command": "strconcat",
+            "Description": "Appends a string"
+        },
+        {
+            "Command": "strcopy",
+            "Description": "Copies a string"
+        },
+        {
+            "Command": "strinsert",
+            "Description": "Inserts a string"
+        },
+        {
+            "Command": "strjoin",
+            "Description": "Concatenates a string with delimiters"
+        },
+        {
+            "Command": "strlen",
+            "Description": "Returns a length of string"
+        },
+        {
+            "Command": "strmatch",
+            "Description": "Matches the target string with the regular expression"
+        },
+        {
+            "Command": "strremove",
+            "Description": "Deletes a part of a string"
+        },
+        {
+            "Command": "strreplace",
+            "Description": "Replaces a part of a string with another string"
+        },
+        {
+            "Command": "strscan",
+            "Description": "Searches for substring in string"
+        },
+        {
+            "Command": "strspecial",
+            "Description": "Converts special characters"
+        },
+        {
+            "Command": "strsplit",
+            "Description": "Splits a string by delimiters"
+        },
+        {
+            "Command": "strtrim",
+            "Description": "Trims characters from beginning and end of string"
+        },
+        {
+            "Command": "tolower",
+            "Description": "Converts all of alphabetic characters to lower-case"
+        },
+        {
+            "Command": "toupper",
+            "Description": "Converts all of alphabetic characters to upper-case"
+        }
+    ],
+    "file-operators": [
+        {
+            "Command": "basename",
+            "Description": "Returns the trailing name component of path"
+        },
+        {
+            "Command": "dirname",
+            "Description": "Returns the directory name from a path name"
+        },
+        {
+            "Command": "fileclose",
+            "Description": "Closes a filehandle"
+        },
+        {
+            "Command": "fileconcat",
+            "Description": "Appends a copy of file to other file"
+        },
+        {
+            "Command": "filecopy",
+            "Description": "Copies a file"
+        },
+        {
+            "Command": "filecreate",
+            "Description": "Creates a file"
+        },
+        {
+            "Command": "filedelete",
+            "Description": "Deletes a file"
+        },
+        {
+            "Command": "filelock",
+            "Description": "Locks the specified file"
+        },
+        {
+            "Command": "filemarkptr",
+            "Description": "Marks a file pointer"
+        },
+        {
+            "Command": "fileopen",
+            "Description": "Opens a file"
+        },
+        {
+            "Command": "filereadln",
+            "Description": "Reads a line from file"
+        },
+        {
+            "Command": "fileread",
+            "Description": "Reads a file"
+        },
+        {
+            "Command": "filerename",
+            "Description": "Renames a file"
+        },
+        {
+            "Command": "filesearch",
+            "Description": "Search a file or folder"
+        },
+        {
+            "Command": "fileseek",
+            "Description": "Moves a file pointer"
+        },
+        {
+            "Command": "fileseekback",
+            "Description": "Moves a file pointer to the position that was marked by 'filemarkptr' command"
+        },
+        {
+            "Command": "filestat",
+            "Description": "Gets status information on a file"
+        },
+        {
+            "Command": "filestrseek",
+            "Description": "Forward searchs a string from a file"
+        },
+        {
+            "Command": "filestrseek2",
+            "Description": "Backward searches a string from a file"
+        },
+        {
+            "Command": "filetruncate",
+            "Description": "Changes the size of a file"
+        },
+        {
+            "Command": "fileunlock",
+            "Description": "Unlocks the specified file"
+        },
+        {
+            "Command": "filewrite",
+            "Description": "Writes a data to the file"
+        },
+        {
+            "Command": "filewriteln",
+            "Description": "Writes a data with new-line to a file"
+        },
+        {
+            "Command": "findfirst",
+            "Description": "Searches for the first file matching a string"
+        },
+        {
+            "Command": "findnext",
+            "Description": "Searches for the next file matching a string"
+        },
+        {
+            "Command": "findclose",
+            "Description": "Releases a directory handle"
+        },
+        {
+            "Command": "foldercreate",
+            "Description": "Creates a folder"
+        },
+        {
+            "Command": "folderdelete",
+            "Description": "Deletes a folder"
+        },
+        {
+            "Command": "foldersearch",
+            "Description": "Search a folder"
+        },
+        {
+            "Command": "getdir",
+            "Description": "Gets the current working directory for MACRO"
+        },
+        {
+            "Command": "getfileattr",
+            "Description": "Returns the attributes of a file or directory"
+        },
+        {
+            "Command": "makepath",
+            "Description": "Creates a full path name"
+        },
+        {
+            "Command": "setdir",
+            "Description": "Changes the current working directory for MACRO"
+        },
+        {
+            "Command": "setfileattr",
+            "Description": "Sets attributes of a file or directory"
+        }
+    ]
+}

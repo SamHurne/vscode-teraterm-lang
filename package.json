@@ -1,0 +1,52 @@
+{
+    "name": "vscode-teraterm-lang",
+    "displayName": "Tera Term Language Support",
+    "description": "Adds language support for the Tera Term scripting language",
+    "version": "0.1.0",
+    "publisher": "SamHurne",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/samhurne/vscode-teraterm-lang"
+    },
+    "bugs": {
+        "url": "https://github.com/samhurne/vscode-teraterm-lang/issues"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages",
+        "Other"
+    ],
+    "homepage": "https://github.com/samhurne/vscode-teraterm-lang",
+    "icon": "assets/logo.svg",
+    "galleryBanner": {
+        "color": "#EEEEEE"
+    },
+    "activationEvents": [
+        "onLanguage:ttl"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ttl",
+            "aliases": ["TeraTerm", "ttl"],
+            "extensions": [".ttl"],
+            "configuration": "./ttl.configuration.json"
+        }],
+        "grammars": [{
+            "language": "ttl",
+            "scopeName": "source.ttl",
+            "path": "./syntaxes/teraterm.tmLanguage"
+        }]
+    },
+    "main": "./out/src/extension",
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^1.8.5",
+        "vscode": "^0.11.0"
+    }
+}
